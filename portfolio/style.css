@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    height:100px;
+    width: 100%;
+     /* background-color: #6d5e5e; 
+     color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    
+}
+#nav h4{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 35px;
+}
+#main{
+    position: relative;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    float: right;
+     /* background-color: rgb(198, 195, 206);  */
+    position: relative;
+}
+
+
+#page1 #page1-in{
+ text-align: center;
+ margin: 200px;
+}
+#page1 h4{
+    font-size: 20px;
+    font-weight: 800;
+}
+#page1 h1{
+    font-size: 55px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+#page1 h1 span{
+    color: #958c14;
+}
+#page1 h2{
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+#page1 button{
+
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+#page1 button:hover{
+
+    color: #fff;
+    background-color: #000;
+    font-weight: 500;
+    border: none;
+}
+
+#page1 #icon{
+
+    font-size: 30px;
+    margin-top: 25px;
+}
+#page1 img{
+
+
+    float: right;
+     position: absolute;
+    top: 0;
+    right: 0;
+    /* border:2px solid black; */
+    height: 500px;
+    margin-top: 30px;
+    margin-right: 250px; 
+    
+    
+     
+
+}
+
+#page2{
+   height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#b5b17d;
+    gap: 50px;
+
+
+   
+    
+
+    
+}
+#page2 #image{
+    width: 500px; 
+    height: 500px; 
+    overflow: hidden;
+    border-radius: 50%; 
+}
+
+#page2 #image img{
+    width: 100%;
+    height: auto;
+
+    
+
+}
+    
+
+    
+
+
+
+ #about {
+    height: 60vh;
+    width: 50%;
+    margin-left: 70px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+#page2 h2{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    
+
+}
+#page2 #about h3{
+    font-size: 30px;
+    font-weight: 600;
+
+    
+}
+
+#page2  p{
+    text-align: left;
+    font-size: 17px;
+    
+}
+
+#contact{
+    height: 20vh;
+    width: 100%;
+    background-color:#b5b17d;
+    display: flex;
+     align-items: center;
+    justify-content: right;
+
+    gap: 60px;
+    
+    
+}
+#contact .message {
+    font-size: 20px;
+    display: flex;
+    margin-right: 60px;
+}
+
+#contact .message i{
+    font-size: 35px;
+ margin-right: 10px;
+}
